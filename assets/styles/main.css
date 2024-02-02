@@ -1,0 +1,22 @@
+.UnderHeaderImage {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+}
+
+.text-button {
+    display: flex;
+    background-color: transparent;
+    border: transparent;
+    font-size: 20px;
+    text-decoration: underline;
+}
+
+.text {
+    font-size: 20px;
+}
+
+.text-div {
+    display: flex;
+}
