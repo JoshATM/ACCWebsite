@@ -11,6 +11,12 @@
     border: transparent;
     font-size: 20px;
     text-decoration: underline;
+    cursor: pointer;
+    color: #000000;
+    padding-right: 0px;
+    &:hover {
+        text-decoration: none;
+    }
 }
 
 .text {
@@ -19,4 +25,8 @@
 
 .text-div {
     display: flex;
+    justify-content: center;
+    @media screen and (max-width: 950px){
+        flex-direction: column;
+    }
 }
