@@ -1,3 +1,3 @@
 function Projects() {
-    window.location.href = "";
+    window.location.href = "https://cv.joshuadownes.uk/";
 }
